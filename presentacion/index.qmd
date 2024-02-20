@@ -1,0 +1,105 @@
+---
+title: "Quarto para la ciencia de datos y academia "
+author: Guillermo Barrios del Valle
+format: 
+    revealjs: 
+        footer: G. Barrios | Quarto para la ciencia de datos
+        incremental: false
+institute: Instituto de Energías Renovables, UNAM
+toc: true
+toc-title: Contenido
+lang: es
+link-external-newwindow: true
+
+
+---
+
+## ¿Qué es Quarto?
+
+Sistema de publicación técnico y científico abierto.
+
+- Libretas de Jupyter 
+- Incluir código en Python, R, Julia...
+- Publicar artículos, presentaciones, tableros, sitios web, blogs, libros en formato HTML, PDF, MS Word, ePub ...
+- Propicia la documentación y documentos reproducibles
+- Ecuaciones, citas, referencias cruzadas, figuras, código fácil de copiar, advertencias, maquetado ...
+
+
+
+## Historia de Quarto 
+
+- RStudio, 2009
+- R Markdown
+    - Ejecutar código
+    - Escribir ecuaciones
+    - Conecta código con reportes
+- RStudio se transforma en POSIT 2021
+- Quarto 2022
+    - Evolución de R Markdown, Knitr
+    - Integra Python, Jupyter notebooks
+
+## El PDF
+
+- Sólo para imprimirse
+- Documentos estáticos 
+- No optimizados para verse en celulares, ipads, PC
+- Navegación limitada
+- No publicable en www
+- No actualizables
+
+
+## ¿Cómo se ve un libro en Quarto?
+
+<br>
+
+<br>
+
+<br>
+
+[Python for Data Analysis](https://wesmckinney.com/book/accessing-data/)
+
+
+
+## ¿Cómo se ve un artículo?
+
+<br>
+
+<br>
+
+<br>
+
+[A Quarto Page Layout Example](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf)
+
+
+
+## ¿Cuál es el plan?
+
+
+<br>
+
+1. Instalar Quarto
+1. Instalar-configurar IDE (VSCode)
+1. Convertir una libreta Jupyter a documento
+1. Iniciar un proyecto de libro-tesis
+
+
+
+## Instala Quarto
+
+
+<br>
+<br>
+<br>
+[quarto.org](https://quarto.org/)
+
+## Instala Visual Studio Code
+
+
+<br>
+<br>
+<br>
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+
+
+## Configura VSCode
