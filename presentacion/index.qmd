@@ -10,10 +10,9 @@ toc: true
 toc-title: Contenido
 lang: es
 link-external-newwindow: true
-
-
 ---
 
+## ¿Para quién es esta charla?
 ## ¿Qué es Quarto?
 
 Sistema de publicación técnico y científico abierto.
@@ -24,19 +23,6 @@ Sistema de publicación técnico y científico abierto.
 - Propicia la documentación y documentos reproducibles
 - Ecuaciones, citas, referencias cruzadas, figuras, código fácil de copiar, advertencias, maquetado ...
 
-
-
-## Historia de Quarto 
-
-- RStudio, 2009
-- R Markdown
-    - Ejecutar código
-    - Escribir ecuaciones
-    - Conecta código con reportes
-- RStudio se transforma en POSIT 2021
-- Quarto 2022
-    - Evolución de R Markdown, Knitr
-    - Integra Python, Jupyter notebooks
 
 ## El PDF
 
@@ -82,6 +68,19 @@ Sistema de publicación técnico y científico abierto.
 1. Convertir una libreta Jupyter a documento
 1. Iniciar un proyecto de libro-tesis
 
+
+
+## Historia de Quarto 
+
+- RStudio, 2009
+- R Markdown
+    - Ejecutar código
+    - Escribir ecuaciones
+    - Conecta código con reportes
+- RStudio se transforma en POSIT 2021
+- Quarto 2022
+    - Evolución de R Markdown, Knitr
+    - Integra Python, Jupyter notebooks
 
 
 ## Instala Quarto
