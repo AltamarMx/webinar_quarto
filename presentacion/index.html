@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.549">
+  <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Guillermo Barrios del Valle">
   <title>Quarto para la ciencia de datos y academia</title>
@@ -31,7 +31,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -221,8 +221,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -472,12 +471,17 @@ Guillermo Barrios del Valle
 <h2>¿Cuál es el plan?</h2>
 <p><br></p>
 <ol type="1">
+<li>Instalar Python</li>
 <li>Instalar Quarto</li>
 <li>Instalar-configurar IDE (VSCode)</li>
 <li>Convertir una libreta Jupyter a documento</li>
 <li>Iniciar un proyecto de libro-tesis</li>
 </ol>
 </section>
+<section id="instala-python-y-paquetes" class="slide level2">
+<h2>Instala Python y paquetes</h2>
+
+<img data-src="img/install_python.jpeg" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://python.org/">Python</a></p></section>
 <section id="instala-quarto" class="slide level2">
 <h2>Instala Quarto</h2>
 
@@ -498,9 +502,13 @@ Guillermo Barrios del Valle
 <h2>Configura render on save</h2>
 
 <img data-src="img/render_save.jpeg" class="r-stretch quarto-figure-center"><p class="caption">Render on save</p></section>
+<section id="tiempo-de-instalar" class="slide level2">
+<h2>Tiempo de instalar</h2>
+
+<img data-src="img/questions_large.png" class="r-stretch quarto-figure-center"><p class="caption">Preguntas</p></section>
 <section id="descarga-el-repositorio" class="slide level2">
 <h2>Descarga el repositorio</h2>
-<div class="sourceCode" id="cb1" title="Navegador"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href=""></a>https://github.com/AltamarMx/webinar_quarto_jupyter_libro</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" title="Navegador"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1"></a>https://github.com/AltamarMx/webinar_quarto_jupyter_libro</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 <img data-src="img/repo_webinar.jpeg" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://github.com/AltamarMx/webinar_quarto_jupyter_libro"></a></p></section>
 <section id="a-la-libreta-de-jupyter" class="slide level2">
@@ -512,7 +520,7 @@ Guillermo Barrios del Valle
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb2" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href=""></a><span class="ex">quarto</span> preview  002_Analisis_Temixco_to_Document.ipynb</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">quarto</span> preview  002_Analisis_Temixco_to_Document.ipynb</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="jupyter-002" class="slide level2">
@@ -521,7 +529,7 @@ Guillermo Barrios del Valle
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href=""></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <img data-src="img/quarto_render_libreta.jpeg" class="r-stretch"></section>
@@ -531,7 +539,7 @@ Guillermo Barrios del Valle
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb <span class="at">--to</span> pdf</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb <span class="at">--to</span> pdf</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <img data-src="img/quarto_render_pdf.jpeg" class="r-stretch"></section>
@@ -541,13 +549,23 @@ Guillermo Barrios del Valle
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
-<div class="sourceCode" id="cb5" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href=""></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb <span class="at">--to</span> docx</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">quarto</span> render  002_Analisis_Temixco_to_Document.ipynb <span class="at">--to</span> docx</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="img/quarto_render_docx.jpeg" class="r-stretch"><div class="quarto-auto-generated-content">
-<div class="footer footer-default">
+<img data-src="img/quarto_render_docx.jpeg" class="r-stretch"></section>
+<section id="preguntas-sobre-jupyter-notebooks" class="slide level2">
+<h2>Preguntas sobre Jupyter notebooks</h2>
+
+<img data-src="img/questions_large.png" class="r-stretch quarto-figure-center"><p class="caption">Notebooks</p></section>
+<section id="a-escribir-una-tesislibro" class="slide level2">
+<h2>A escribir una tesis/libro</h2>
+
+<img data-src="img/writing_thesis.jpg" class="r-stretch quarto-figure-center"><p class="caption">Writing</p></section>
+<section id="preguntas-sobre-tesislibro" class="slide level2">
+<h2>Preguntas sobre tesis/libro</h2>
+
+<img data-src="img/questions_phd.jpg" class="r-stretch"><div class="footer footer-default">
 <p>G. Barrios | Quarto para la ciencia de datos</p>
-</div>
 </div>
 </section>
     </div>
@@ -576,6 +594,7 @@ Guillermo Barrios del Valle
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -836,27 +855,10 @@ Guillermo Barrios del Valle
         // clear code selection
         e.clearSelection();
       });
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -866,17 +868,8 @@ Guillermo Barrios del Valle
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -930,6 +923,20 @@ Guillermo Barrios del Valle
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

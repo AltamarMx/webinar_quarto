@@ -81,12 +81,17 @@ Sistema de publicación técnico y científico abierto.
 
 <br>
 
+1. Instalar Python
 1. Instalar Quarto
 1. Instalar-configurar IDE (VSCode)
 1. Convertir una libreta Jupyter a documento
 1. Iniciar un proyecto de libro-tesis
 
 
+
+## Instala Python y paquetes
+
+![[Python](https://python.org/)](img/install_python.jpeg)
 
 ## Instala Quarto
 
@@ -110,6 +115,11 @@ Sistema de publicación técnico y científico abierto.
 ## Configura render on save
 
 ![Render on save](img/render_save.jpeg)
+
+
+## Tiempo de instalar
+
+![Preguntas](img/questions_large.png)
 
 
 ## Descarga el repositorio
@@ -156,3 +166,17 @@ quarto render  002_Analisis_Temixco_to_Document.ipynb --to pdf
 quarto render  002_Analisis_Temixco_to_Document.ipynb --to docx
 ```
 ![](img/quarto_render_docx.jpeg)
+
+
+## Preguntas sobre Jupyter notebooks
+
+![Notebooks](img/questions_large.png)
+
+## A escribir una tesis/libro
+
+![Writing](img/writing_thesis.jpg)
+
+
+## Preguntas sobre tesis/libro
+
+![](img/questions_phd.jpg)
