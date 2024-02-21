@@ -6,20 +6,25 @@ format:
         footer: G. Barrios | Quarto para la ciencia de datos
         incremental: false
 institute: Instituto de Energías Renovables, UNAM
-toc: true
+toc: false
 toc-title: Contenido
 lang: es
 link-external-newwindow: true
 ---
 
 ## ¿Para quién es esta charla?
+- $\LaTeX$ 
+- Jupyter notebook, R
+- Libro, tesis, artículos
+- Ciencia de datos
+
 ## ¿Qué es Quarto?
 
 Sistema de publicación técnico y científico abierto.
 
-- Libretas de Jupyter 
+- __Libretas de Jupyter__
 - Incluir código en Python, R, Julia...
-- Publicar artículos, presentaciones, tableros, sitios web, blogs, libros en formato HTML, PDF, MS Word, ePub ...
+- Publicar artículos, presentaciones, tableros, sitios web, blogs, __libros__ en formato HTML, PDF, MS Word, ePub ...
 - Propicia la documentación y documentos reproducibles
 - Ecuaciones, citas, referencias cruzadas, figuras, código fácil de copiar, advertencias, maquetado ...
 
@@ -46,7 +51,7 @@ Sistema de publicación técnico y científico abierto.
 
 
 
-## ¿Cómo se ve un artículo?
+## ¿Cómo se ve un artículo en PDF?
 
 <br>
 
@@ -55,18 +60,6 @@ Sistema de publicación técnico y científico abierto.
 <br>
 
 [A Quarto Page Layout Example](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf)
-
-
-
-## ¿Cuál es el plan?
-
-
-<br>
-
-1. Instalar Quarto
-1. Instalar-configurar IDE (VSCode)
-1. Convertir una libreta Jupyter a documento
-1. Iniciar un proyecto de libro-tesis
 
 
 
@@ -83,22 +76,83 @@ Sistema de publicación técnico y científico abierto.
     - Integra Python, Jupyter notebooks
 
 
+## ¿Cuál es el plan?
+
+
+<br>
+
+1. Instalar Quarto
+1. Instalar-configurar IDE (VSCode)
+1. Convertir una libreta Jupyter a documento
+1. Iniciar un proyecto de libro-tesis
+
+
+
 ## Instala Quarto
 
-
-<br>
-<br>
-<br>
-[quarto.org](https://quarto.org/)
+![[Quarto](https://quarto.org/)](img/install_quarto.jpeg)
 
 ## Instala Visual Studio Code
 
 
-<br>
-<br>
-<br>
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+![[https://code.visualstudio.com/](https://code.visualstudio.com/)](img/install_vscode.jpeg)
 
 
 
-## Configura VSCode
+## Instala Quarto extension para VSCode
+
+![Quarto extension](img/quarto_extension.jpeg)
+
+## Configura Quarto extension para VSCode
+
+![Quarto extension configuración](img/quarto_extension_settings.jpeg)
+
+## Configura render on save
+
+![Render on save](img/render_save.jpeg)
+
+
+## Descarga el repositorio
+
+```{.html title="Navegador"}
+https://github.com/AltamarMx/webinar_quarto_jupyter_libro
+```
+![[](https://github.com/AltamarMx/webinar_quarto_jupyter_libro)](img/repo_webinar.jpeg)
+
+
+## A la libreta de Jupyter
+
+
+## Jupyter 001
+
+
+```{.bash filename="Terminal"}
+quarto preview  002_Analisis_Temixco_to_Document.ipynb
+```
+
+
+## Jupyter 002
+
+
+```{.bash filename="Terminal"}
+quarto render  002_Analisis_Temixco_to_Document.ipynb
+```
+![](img/quarto_render_libreta.jpeg)
+
+
+## Jupyter 003
+
+
+```{.bash filename="Terminal"}
+quarto render  002_Analisis_Temixco_to_Document.ipynb --to pdf
+```
+![](img/quarto_render_pdf.jpeg)
+
+
+## Jupyter 004
+
+
+```{.bash filename="Terminal"}
+quarto render  002_Analisis_Temixco_to_Document.ipynb --to docx
+```
+![](img/quarto_render_docx.jpeg)
